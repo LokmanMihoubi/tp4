@@ -1,0 +1,50 @@
+#triangle{
+  width:0px;
+  height:0px;
+  border-left:50px solid transparent;
+  border-top:50px solid red ;
+  border-right:50px solid transparent;
+}
+#forme_ovale{
+  width:100px;
+  height:50px;
+  background:#0a81ab;
+  border-radius: 100px / 50px;
+
+}
+#exer{
+  width:340px;
+  height:340px;
+  background:#39a9cb;
+  border-radius:4%;
+  box-shadow:4px 4px 4px gray;
+}
+hr,h1,p,img{
+  margin:12px;
+}
+hr{
+  margin-right:30px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  width: 100%;
+  border-collapse:collapse;
+
+}
+.cla{
+  background:#CAF7E3;
+
+}
+td,th {
+  text-align: left;
+  padding: 8px;
+
+}
+
+tr:nth-last-of-type(even) {
+  background-color:white;
+}
+.re {
+  background:#77ACF1;
+}
